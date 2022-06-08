@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Table Tag Usage</title>
+</head>
+<style>
+  table, th, td {
+    border: 1px solid red;
+  border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+  table#mytable tr:nth-child(even) {
+    background-color: #FAD7A0;
+  }
+  table#mytable tr:nth-child(odd) {
+    background-color: #E67E22;
+  }
+  table#mytable th {
+    color: white;
+    background-color: teal;
+  }
+</style>
+<body>
+  <table id="mytable" border = "1" width = "450" height = "350">
+    <tr>
+      <th>Name</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Dhoni</td>
+      <td>India</td>
+    </tr>
+    <tr>
+      <td>David Miller</td>
+      <td>South Africa</td>
+    </tr>
+    <tr>
+      <td>Joe Root</td>
+      <td>England</td>
+    </tr>
+  </table>
+</body>

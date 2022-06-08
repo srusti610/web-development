@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <h1>input types</h1>
+  <form action="">
+  text size="20" maxlength="2" value="00" <input type="text" size="40" maxlength="10" value="00" required><br>
+  password size="10" maxlength="10" <input type="password" size="10" maxlength="10" required><br>
+  checkbox <input type="checkbox" checked="checked" name="VVCE"><br>
+  tel <input type="tel"><br>
+  email <input type="email" value="" placeholder="email@email.com"><br>
+  password size="10" maxlength="10" <input type="password" size="10" maxlength="10"><br>
+  datetime-local <input type="datetime-local"><br>
+  date <input type="date"><br>
+  datetime <input type="datetime"><br>
+  month <input type="month"><br>
+  week <input type="week"><br>
+  time <input type="time"><br>
+  number <input type="number"><br>
+  range <input type="range"><br>
+  file <input type="file"><br>
+  hidden <input type="hidden"><br>
+  checkbox <input type="checkbox" checked="checked"><br>
+  radio <input type="radio"><br>
+  reset <input type="reset"><br>
+  submit <input type="submit">
+  </form>
+  <hr>
+  <h2>Example of forms</h2>
+  <form action="form.html" method="post" enctype="text/plain">
+    <fieldset>
+      <legend>Login page</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <keygen name="key" challenge="0987654321" keytype="RSA" keyparams="medium">
+    <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+
+  <hr>
+  <h1>My Biodata Form</h1>
+  <form action='' method='' >
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="FirstName">FirstName</label>
+      <input type="text" id="FirstName" placeholder="First Name" name="user" required>
+      <label for="LastName">LastName</label>
+      <input type="text" id="LastName" placeholder="LastName" name="user" required>
+      <br>
+      <br>
+      <label for="Gender">Gender: </label>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female">
+
+      <br>
+      <br>
+      <label for="birthday">Date Of Birth:</label>
+      <input type="date" id="birthday" name="birthday">
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="email" id="email">
+      <br>
+      <br>
+      <label for="telNo">Phone number: </label>
+      <input id="telNo" name="telNo" type="tel" list="defaultTels" placeholder="+91">
+      <br>
+      <br>
+      <label for="intrest">Intrests:</label>
+      <label for="c1">Programming </label> <input type="checkbox" id="c1">
+      <label for="c2">Sports </label> <input type="checkbox" id="c2">
+      <label for="c3">Cultural activities</label> <input type="checkbox" id="c3">
+      <br>
+      <br>
+      <label for="height">Height:</label>
+      <input type="text" id="height" placeholder="height in feet-inch" required>
+      <br>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>Education:</legend>
+      <label for="college">College Name:</label>
+      <input type="text" id="college" placeholder="college" required>
+      <br>
+      <br>
+      <label for="class">Year of graduation:</label>
+      <input type="text" id="class" placeholder="Enter graduation year" required>
+      <br>
+      <br>
+      <label for="select">Branch:</label>
+        <select name="select" id="bile">
+        <option value="stream">CSE</option>
+        <option value="stream">ISE</option>
+        <option value="stream">AIML</option>
+        <option value="stream">ME</option>
+      </select>
+      <br><br>
+      <label for="certificate">Upload certificate:</label>
+      <input type="file" id="marksheet">
+    </fieldset>
+    <br>
+    <input type="submit">
+  </form >
+</body>
+</html>
